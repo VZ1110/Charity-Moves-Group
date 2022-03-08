@@ -3,10 +3,10 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Charity Moving CSS -->
     <link rel="stylesheet" href="Css/CharityMoving.css">
@@ -23,66 +23,323 @@
     <!-- HotJar -->
 
     <title>Charity Moving | Move to Donate for a Cause</title>
-
   </head>
 
   <body>
-    <nav>
-
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="nav-contents container-fluid">
+        <a class="navbar-brand" href="#">
+          Charity Moving
+          <!-- <img src="images/brand-logo.png" alt="brand-logo"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link text-reset" aria-current="page" href="#">How it Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">Charities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">Sponsor the App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset" href="#">Engage your Employees</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-brand" type="submit">Download App</button>
+          </form>
+        </div>
+      </div>
     </nav>
 
-    <div class="allContent">
-      <!-- Hero -->
-      <section class="container-fluid">
-       
-      </section>
+  <!-- Hero -->
+  <div class="hero-space container-fluid">
+    <div class="hero-text">
+      <h1 class="display">Get Moving Now!</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, doloremque. Quisquam assumenda esse earum maiores eos nisi sed ad ea laudantium saepe porro, voluptatibus iusto inventore, exercitationem qui magni error?</p>
+      <button class="btn btn-brand btn-lg" type="button">Start Today</button>
+    </div>
+  </div>
 
-      <!-- Section 1: -->
-      <section class="container-fluid">
+    <!-- All content -->
+    <div class="all-content">
+    
+    <!-- What Our Members Say -->
+    <section class="testim" id="testim">
+      <h1>What Our Members Say</h1>
+      <div class="wrap">
+          <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+          <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+          <ul class="dots" id="testim-dots">
+              <li class="dot active"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+              <li class="dot"></li>
+          </ul>
+
+          <div class="cont" id="testim-content">
+
+              <div class="active">
+                  <div class="img"><img src="Images/ava-1.png"></div>
+                  <h2>Lorem N. Ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+              </div>
+              
+              <div>
+                  <div class="img"><img src="Images/ava-2.png"></div>
+                  <h2>Lorem L. Ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+              </div>
+              
+              <div>
+                  <div class="img"><img src="Images/ava-3.png"></div>
+                  <h2>Lorem R. Ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+              </div>
+              
+              <div>
+                  <div class="img"><img src="Images/ava-4.png"></div>
+                  <h2>Lorem P. Ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+              </div>
+              
+              <div>
+                  <div class="img"><img src="Images/ava-5.png"></div>
+                  <h2>Lorem Q. Ipsum</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
+                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+              </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Get Fit and Make an Impact -->
+    <section class="container-fluid">
+      <div class="row text-center sec-pad">
+        <h1>Get Fit and Make an Impact</h1>
+        <p>Charity Miles lets you turn a neighborhood jog or weekend hike into a fundraiser for good. Just choose a charity and get moving. The app tracks your movement. For every mile you log, you help to earn money for your chosen charity.</p>
+      </div>
+      <div class="row sec-margin">
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div>
+            <h3>Support World-Class Charities</h3>
+            <p>Choose from over 40 charities that are making a big impact on health, children, animals, the environment, education, veterans and more.</p>
+          </div>
+          <div>
+            <h3>Be The Change</h3>
+            <p>When you move for charity, you are telling yourself a story about what's important to you. Side effects may include empathy, mindfulness and gratitude.</p>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 mockup">
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12">
+          <div>
+            <h3>Get Sponsored by Companies</h3>
+            <p>Our sponsors repurpose portions of their advertising budgets to our sponsorship pool, which we pay to the charities in proportion to the miles done for each. We have earned over $2.5 million for charity!</p>
+          </div>
+          <div>
+            <h3>Help Yourself While Helping Others</h3>
+            <p>Moving for charity helps keep you motivated and feeling good all day long.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row sec-margin">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>Over</p>
+          <p class="display-2">100,000,000<p>
+          <p>Miles Moved</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>Over</p>
+          <p class="display-2">$2,750,000<p>
+          <p>Raised</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid sec-pad">
+        <h2>Meet Our Charities</h2>
+        <p>We're proud to partner with over 50 world-class charities that are making a big impact for health, children, animals, the environment, education, veterans and more.</p>
         <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
           </div>
         </div>
 
-      </section>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+        </div>
 
-      <!-- Section 2: -->
-      <section class="container-fluid">
-        
-      </section>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+        </div>
 
-      <!-- Section 3: -->
-      <section class="container-fluid">
-        
-      </section>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 charity-wrap">
+            <img src="#" alt="">
+          </div>
+        </div>
 
-      <!-- Section 4: -->
-      <section class="container-fluid">
-        
-      </section>
+        <button class="btn btn-brand btn-lg mt-3" type="button">Explore More</button>
+    </section>
 
-    </div>
-
-    <footer class="footer container-fluid">
+    <!-- Member & Sponsors -->
+    <section class="container-fluid sec-margin">
       <div class="row">
-
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h2>Member Spotlight</h2>
+          <p>Our members are active-ists. They like to live healthy and help others. Check out the stories behind amazing people who go the extra mile for their own health and the world around them.</p>
+          <button class="btn btn-brand btn-lg" type="button">Meet Our Members</button>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="img-fluid" src="Images/illustration-5.jpg" alt="">
+        </div>
       </div>
-      
       <div class="row">
-
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="img-fluid" src="Images/illustration-3.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h2>Thanks To Our Sponsors</h2>
+          <p>We're grateful to partner with mission-driven companies of all sizes that are committed to helping people live healthily and make an impact. If you'd like to learn more about opportunities to partner with us, please click below.</p>
+          <!-- NEED sponsor logos -->
+          <button class="btn btn-brand btn-lg" type="button">Sponsor Us</button>
+        </div>
+        
       </div>
 
-    </footer>
 
+    </section>
 
+  </div>
 
+    <!-- Footer -->
+    <div class="container-fluid pt-5">
+      <footer class="footer">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h5>Explore</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Engage Your Employees</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sponsor Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Members</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Press</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shop</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Extra Mile Club</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h5>Info</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Shipping &amp; Returns</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            </ul>
+          </div>
+    
+          <!-- <div class="col-2">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div> -->
+    
+          <div class="col-lg-4 col-md-4 col-sm-12 offset-1">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of whats new and exciting from us.</p>
+              <div class="d-flex w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-brand" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
 
+        <div class="d-flex justify-content-between py-4 border-top">
+          <p>&copy; 2022 Charity Miles. All Rights Reserved | Privacy | Terms of Use</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
-
+      </footer>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="Java/CharityMoving.js"></script>
+   
   </body>
 </html>
+
+
+
+
