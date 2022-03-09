@@ -41,7 +41,7 @@ html{
 .hero-space {
     margin-top: 56px;
     height: 80vh;
-    background-image: url("/Charity\ Moving\ Group/Images/Illustration-2.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/868/115/large_2x/emotional-wow-concept-free-vector.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -254,7 +254,7 @@ border-color: #12ac12;
     }
 }
 .mockup {
-    background-image: url("/Charity\ Moving\ Group/Images/Product.jpg");
+    background-image: url("https://www.mockupdaddy.com/wp-content/uploads/2021/10/iPhone-13-and-iWatch-Mockup.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
