@@ -41,7 +41,7 @@ html{
 .hero-space {
     margin-top: 56px;
     height: 80vh;
-    background-image: url("/Images/illustration-2.jpg");
+    background-image: url("/Charity\ Moving\ Group/Images/Illustration-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -254,7 +254,7 @@ border-color: #12ac12;
     }
 }
 .mockup {
-    background-image: url("/Images/Product.jpg");
+    background-image: url("/Charity\ Moving\ Group/Images/Product.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
