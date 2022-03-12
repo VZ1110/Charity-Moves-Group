@@ -26,43 +26,74 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <div class="nav-contents container-fluid">
-        <a class="navbar-brand" href="#">
-          Charity Moves
-          <!-- <img src="images/brand-logo.png" alt="brand-logo"> -->
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link text-reset" aria-current="page" href="#">How it Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#">Charities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#">Sponsor the App</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-reset" href="#">Engage your Employees</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <button class="btn btn-brand" type="submit">Download App</button>
-          </form>
+    <!-- Mobile screen nav -->
+    <nav class="mobilenav navbar navbar-expand-lg" style="background-color: white"
+        style="padding-top: 110px;">
+        <div class="container-fluid" id="navbox">
+            <a class="navbar-brand" href="#"><img src="images/brand-logo.png" alt="logo" width="200" loading="lazy"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sponsoring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Employees</a>
+                    </li>
+                </ul>
+                <form>
+                  <button class="btn btn-brand" type="submit">Download App</button>
+                </form>
+            </div>
         </div>
-      </div>
     </nav>
+
+    <!-- Nav on larger screens -->
+    <nav class="autohide navbar navbar-expand-lg" style="background-color: white">
+        <div class="container-fluid" id="navbox">
+            <a class="navbar-brand" href="#"><img src="images/brand-logo.png" alt="logo" width="200" loading="lazy"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sponsoring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">For Employees</a>
+                    </li>
+                </ul>
+                <form>
+                  <button class="btn btn-brand" type="submit">Download App</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
 
   <!-- Hero -->
   <div class="hero-space container-fluid">
     <div class="hero-text">
       <h1 class="display">Get Moving Now!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, doloremque. Quisquam assumenda esse earum maiores eos nisi sed ad ea laudantium saepe porro, voluptatibus iusto inventore, exercitationem qui magni error?</p>
+      <h3>Download the app today and turn your steps into money for your chosen charity.</h3>
       <button class="btn btn-brand btn-lg" type="button">Start Today</button>
     </div>
   </div>
@@ -88,38 +119,33 @@
           <div class="cont" id="testim-content">
 
               <div class="active">
-                  <div class="img"><img src="Images/ava-1.png"></div>
-                  <h2>Lorem N. Ipsum</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                  <div class="img"><img src="Images/ava-6.png"></div>
+                  <h2>Walter Walker</h2>
+                  <p>Using the Charity Moves app has become a healthy addiction. My day is not complete unless I walk at least I mile for Charity Moves. It makes donating money for a cause a simple and rewarding experience.</p>
               </div>
               
               <div>
-                  <div class="img"><img src="Images/ava-2.png"></div>
-                  <h2>Lorem L. Ipsum</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                  <div class="img"><img src="Images/ava-1.png"></div>
+                  <h2>Debbie Evans</h2>
+                  <p>Charity Moves reminds me of how much a group of like-minded individuals can accomplish everyday. All of us regardless of age can help make a difference for others! It is no simple to use: select a charity, select your activity, and begin to move. GPS tracking begins instantly.</p>
               </div>
               
               <div>
                   <div class="img"><img src="Images/ava-3.png"></div>
-                  <h2>Lorem R. Ipsum</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                  <h2>Pam McConnell</h2>
+                  <p>You're going to exercise anyway. Why not give back to the community through Charity Moves at the same time? The best way to reach your goals is to help others reach theirs. Helping support a good cause helps me to push that extra mile. It's a no-brainer!</p>
               </div>
               
               <div>
                   <div class="img"><img src="Images/ava-4.png"></div>
-                  <h2>Lorem P. Ipsum</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                  <h2>Rober Smith</h2>
+                  <p>If you're not an avid runner but you'd like to be, heres your motivation: a large corporate entity sponsors your run, meaning they donate based on the steps you run for the charity you select. Want to help hungry families get through the pandemic? Also Got you covered!</p>
               </div>
               
               <div>
-                  <div class="img"><img src="Images/ava-5.png"></div>
-                  <h2>Lorem Q. Ipsum</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quasi aliquid vel voluptatum
-                      deleniti! Corrupti velit, porro facere facilis laboriosam accusantium, eos beatae maiores.</p>
+                  <div class="img"><img src="Images/ava-2.png"></div>
+                  <h2>Jaime Noel</h2>
+                  <p>I have always believed in the win/win philosophy... now big companies can help to give back to our community by all of us helping each other by donating to numerous organizations, just by exercising, walking, bike riding, running.</p>
               </div>
           </div>
 
@@ -130,27 +156,31 @@
     <section class="container-fluid">
       <div class="row text-center sec-pad">
         <h1>Get Fit and Make an Impact</h1>
-        <p>Charity Miles lets you turn a neighborhood jog or weekend hike into a fundraiser for good. Just choose a charity and get moving. The app tracks your movement. For every mile you log, you help to earn money for your chosen charity.</p>
+        <p>Charity Moves lets you turn a neighborhood jog or weekend hike into a fundraiser for good. Just choose a charity and get moving. The app tracks your movement. For every mile you log, you help to earn money for your chosen charity.</p>
       </div>
       <div class="row sec-margin">
-        <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <div>
+            <i class="fa-solid fa-hand-holding-heart fa-icon"></i>
             <h3>Support World-Class Charities</h3>
             <p>Choose from over 40 charities that are making a big impact on health, children, animals, the environment, education, veterans and more.</p>
           </div>
           <div>
+            <i class="fa-solid fa-face-laugh-squint fa-icon"></i>
             <h3>Be The Change</h3>
             <p>When you move for charity, you are telling yourself a story about what's important to you. Side effects may include empathy, mindfulness and gratitude.</p>
           </div>
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 mockup">
+        <div class="col-lg-6 col-md-6 col-sm-12 mockup">
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="col-lg-3 col-md-3 col-sm-12">
           <div>
+            <i class="fa-solid fa-circle-dollar-to-slot fa-icon"></i>
             <h3>Get Sponsored by Companies</h3>
-            <p>Our sponsors repurpose portions of their advertising budgets to our sponsorship pool, which we pay to the charities in proportion to the miles done for each. We have earned over $2.5 million for charity!</p>
+            <p>Our sponsors repurpose portions of their advertising budgets to our sponsorship pool, which we pay to the charities in proportion to the steps done for each. We have earned over $2.5 million for charity!</p>
           </div>
           <div>
+            <i class="fa-solid fa-handshake-angle fa-icon"></i>
             <h3>Help Yourself While Helping Others</h3>
             <p>Moving for charity helps keep you motivated and feeling good all day long.</p>
           </div>
@@ -163,8 +193,8 @@
       <div class="row sec-margin">
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p>Over</p>
-          <p class="display-2">100,000,000<p>
-          <p>Miles Moved</p>
+          <p class="display-2">200,000,000,000<p>
+          <p>Steps Moved</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p>Over</p>
@@ -295,17 +325,6 @@
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
             </ul>
           </div>
-    
-          <!-- <div class="col-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div> -->
     
           <div class="col-lg-4 col-md-4 col-sm-12 offset-1">
             <form>

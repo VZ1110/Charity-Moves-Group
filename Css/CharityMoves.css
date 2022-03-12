@@ -7,9 +7,12 @@
     box-sizing: border-box;
     user-select: none;
 }
-html{
+html {
     width: 100%;
     height: auto;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .all-content {
     padding: 5% 2% 0;
@@ -20,18 +23,51 @@ html{
 
 /* Navbar */
 .navbar {
-    background-color: black;
+    padding: 10px 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.nav-item {
-    color: white;
+#navbox {
+    padding-left: 0;
+    padding-right: 0;
 }
-.nav-item:hover {
-    color: #12ac12;
+.nav-item, .nav-link {
+    padding-right: 1.5rem ;
+    font-size: 21px;
+    color: #7889D0;
+}
+.nav-item:hover, .nav-link:hover {
+    color: #5263a3 ;
+}
+
+.fa-bars {
+    font-size: 45px;
+    color: #7889D0;
+}
+.navbar-dark .navbar-toggler {
+    border: none;
+}
+.autohide{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+.mobilenav {
+    display: none;
 }
 .btn-brand {
-    background-color: #12ac12;
+    background-color: #FF9A86;
     color: white;
-    border-radius: 5px;
+    font-size: 18px;
+    border-radius: 30px;
 }
 .nav-contents {
     padding: 10px 2%;
@@ -94,7 +130,7 @@ html{
     right: 10px;
 }
 .testim .arrow:hover{
-    color: #12ac12;
+    color: #FF9A86;
 }
 .testim .dots{
     text-align: center;
@@ -111,7 +147,7 @@ html{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid #FF9A86;
     margin: 0 10px;
     cursor: pointer;
     transition: all .5s ease-in-out;
@@ -119,8 +155,8 @@ html{
 }
 .testim .dots .dot.active,
 .testim .dots .dot:hover{
-background: #12ac12;
-border-color: #12ac12;
+background: #FF9A86;
+border-color: #FF9A86;
 }
 
 .testim .dots .dot.active{
@@ -155,7 +191,7 @@ border-color: #12ac12;
     border-radius: 50%;
 }
 .testim .cont div h2{
-    color: #12ac12;
+    color: #FF9A86;
     font-size: 1em;
     margin: 15px 0;
 }
@@ -192,10 +228,10 @@ border-color: #12ac12;
         box-shadow: 0px 0px 10px 5px rgb(255, 255, 255);
     }
     70% {
-        box-shadow: 0px 0px 10px 5px #12ac12;
+        box-shadow: 0px 0px 10px 5px #FF9A86;
     }
     100% {
-        box-shadow: 0px 0px 0px 0px #12ac12;
+        box-shadow: 0px 0px 0px 0px #FF9A86;
     }
 }
 
@@ -253,6 +289,21 @@ border-color: #12ac12;
         line-height: 25px;
     }
 }
+
+.fa-icon {
+    background-color: #7889D0;
+    color: white;
+    padding: 20px;
+    padding-top: 25px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    border-radius: 200px;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    
+}
+
 .mockup {
     background-image: url("https://www.mockupdaddy.com/wp-content/uploads/2021/10/iPhone-13-and-iWatch-Mockup.jpg");
     background-size: contain;
@@ -269,6 +320,7 @@ border-color: #12ac12;
     margin: 10px 10px;
     border-radius: 5px;
 }
+
 
 /* Footer */
 i {
@@ -290,3 +342,10 @@ p {
     font-size: 90px;
     font-weight: 700;
 }
+
+/* media query */
+@media screen and (max-width: 991px) {
+    .nav-item {
+        padding-left: 0;
+        text-align: right;
+    }
