@@ -38,7 +38,7 @@ body {
     color: #7889D0;
 }
 .nav-item:hover, .nav-link:hover {
-    color: #5263a3;
+    color: #6c81d1;
     text-decoration: solid underline #7889D0 4px;
     text-underline-offset: 0.25em;
 }
@@ -125,7 +125,7 @@ body {
 .testim .arrow{
     display: block;
     position: absolute;
-    color: black;
+    color: #7889D0;
     cursor: pointer;
     font-size: 2em;
     top: 50%;
@@ -350,9 +350,7 @@ border-color: #FF9A86;
     border-radius: 5px;
     border: 2px solid #7889D0;
 }
-.text-column {
-    padding: 10% 5%;
-}
+
 .bg-purple {
     background-color: #7889D0;
 }
