@@ -484,9 +484,7 @@ p {
         text-align: right;
     }
     form {
-        text-align: right;
-        padding: 8px 0;
-        padding-right: 24px;
+        text-align: left;
     }
     .mo-padding {
         padding: 0 18%;
