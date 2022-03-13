@@ -327,7 +327,7 @@ border-color: #FF9A86;
     transform: scale(1.3) rotate(10deg);
 }
 .mockup {
-    background-image: url("../images/Product.jpg");
+    background-image: url("../Images/Product.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
