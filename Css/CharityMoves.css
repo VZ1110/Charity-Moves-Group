@@ -120,7 +120,7 @@ body {
 }
 .testim .wrap{
     position: relative;
-    width: 100%;
+    width: 75%;
     max-width: 1020px;
     padding: 40px 20px 20px;
     margin: auto;
@@ -128,6 +128,7 @@ body {
 .testim .arrow{
     display: block;
     position: absolute;
+    top: 20%;
     color: #7889D0;
     cursor: pointer;
     font-size: 2em;
@@ -333,6 +334,12 @@ border-color: #FF9A86;
     background-repeat: no-repeat;
     background-position: center;
 }
+.mobile-show {
+    display: none;
+}
+.mo-padding {
+    padding: 0;
+}
 .sec-pad {
     padding: 0 10%;
 }
@@ -455,7 +462,23 @@ p {
 }
 
 /* media query */
+@media screen and (min-width: 1513px) {
+    .hero-space {
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
+}
+
 @media screen and (max-width: 991px) {
+    .hero-space {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-text {
+        top: 70%;
+    }
     .nav-item {
         padding-left: 0;
         text-align: right;
@@ -464,4 +487,38 @@ p {
         text-align: right;
         padding: 8px 0;
         padding-right: 24px;
+    }
+    .mo-padding {
+        padding: 0 18%;
+    }
+    .mobile-show {
+        display: block;
+    }
+    .fa-icon {
+        background-color: #7889D0;
+        color: white;
+        padding: 20px;
+        padding-top: 25px;
+        font-size: 30px;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        text-align: center;
+        transition: all 0.2s ease-out;
+    }
+    .mo-padding > .sec-margin {
+        margin-bottom: 0;
+    }
+    .mo-padding > .text-center {
+        text-align: start !important;
+        padding-left: 16px;
+    }
+    .flex-direction {
+        flex-direction: column;
+    }
+    .reverse-direction {
+        flex-direction: column-reverse;
+    }
+    .p-5 {
+        padding-bottom: 0 !important;
     }
