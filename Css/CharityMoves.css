@@ -398,6 +398,24 @@ border-color: #FF9A86;
     object-fit: contain;
     padding: 5% 5%;
 }
+.download {
+    background-image: url("../images/bg-sports.png");
+    margin-bottom: 4%;
+}
+.download-badge {
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.download-badge-container {
+    margin-top: 5px;
+}
+.download p {
+    margin: 0;
+}
+.qr-code {
+    margin: 5px 0;
+}
 
 /* Footer */
 i {
@@ -557,6 +575,7 @@ p {
     .flex-column {
         padding-bottom: 20px;
     }
+}
 
     /* 2532x1170 pixels at 460ppi */
     /* iphone 12 pro, 13 and 13 Pro */
@@ -579,6 +598,9 @@ p {
         }
         .sec-pad-lg {
             padding: 0 5%;
+        }
+        .download .sec-pad-lg {
+            padding: 10% 0;
         }
         .mo-padding {
             padding: 0 5%;
