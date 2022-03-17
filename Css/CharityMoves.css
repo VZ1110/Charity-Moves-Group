@@ -34,7 +34,7 @@ body {
     padding-left: 0;
     padding-right: 0;
 }
-.nav-item, .nav-link {
+.nav-item, .nav-link, .nav-link:focus, .nav-link:active {
     padding-right: 1.5rem ;
     font-size: 21px;
     color: #7889D0;
