@@ -497,6 +497,11 @@ p {
     .autohide img {
         width: 300px;
     }
+    .hero-space {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 @media screen and (max-width: 991px) {
